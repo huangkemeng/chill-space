@@ -1,0 +1,17 @@
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    display: block;
+    scroll-behavior: smooth;
+    color-scheme: light;
+}
+
+body {
+    background-color: #ffffff;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.88);
+}

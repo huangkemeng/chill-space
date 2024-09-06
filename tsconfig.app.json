@@ -1,0 +1,33 @@
+{
+  "include": [
+    "env.d.ts",
+    "src/**/*.ts",
+    "src/**/*.vue"
+  ],
+  "exclude": [
+    "src/**/__tests__/*"
+  ],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "moduleResolution": "nodenext",
+    "noImplicitThis": true,
+    "module": "esnext",
+    "target": "es2022",
+    "lib": [
+      "ES2016",
+      "DOM",
+      "DOM.Iterable",
+      "es2022",
+      "ESNext"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+    },
+  }
+}
